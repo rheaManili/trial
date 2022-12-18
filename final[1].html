@@ -11,7 +11,7 @@
 
 
   <header>
-    <div class="user">
+    <div class="user" id="icon">
       <img src="profile.png" />
       <h3 class="name">Manili, Rhea L.</h3>
       <p class="post">3RD YEAR BSIT STUDENT</p>
@@ -23,13 +23,15 @@
         <li><a href="#pd">Personal Data</a></li>
         <li><a href="#education">Educational Background</a></li>
         <li><a href="#family">Family Background</a></li>
+        <li><a href="javascript:void(0);" class="menu"onclick="myFunction()"> <i class="fa fa-bars"></i></a></li>
+        
       </ul>
       
     </nav>
     
   </header>
   
- <div id="menu" class="fa fa-bars"></div>
+ 
   
   <section class="home" id="home">
     <h3>HI THERE !</h3>
@@ -180,7 +182,21 @@
     
   
   
-  
+  <script>
+    function myFunction(){
+      var x =
+          document.getElementById("icon");
+      if (x.className === "user") {
+        x.className += "responsve";
+      }else {
+        x.className = "user";
+      }
+    }
+    
+    
+    
+    
+  </script>
   
   
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
