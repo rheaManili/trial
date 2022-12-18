@@ -430,7 +430,21 @@ body {
   padding: 0;
 }
 }
+@media screen and (max-width:600px) {
+  .user.responsive {position :relative;}
+  .user.responsive .icon {
+    position:absolute;
+    right: 0;
+    top: 0;
+  }
+  
+.user.responsive ul li a {
+  float: none;
+  display: block;
+  text-align: right;
+  }
 
+}
 @media (max-width:768px) {
   html{
     font-size: 50%;
