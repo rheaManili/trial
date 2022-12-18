@@ -71,7 +71,7 @@ background: rgba(100,100,100,0.2);
 body {
 background-color: gray;
 overflow-x: hidden;
-padding-left: 35rem;
+
  
   
 }
@@ -416,7 +416,7 @@ height: 100%;
 @media (max-width:991px) {
   header {
     left:-120%;
-    height: 100%;
+ 
   }
   
   #menu {
@@ -439,8 +439,7 @@ body {
 
 @media (max-width:400px) {
   header {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
 }
 
 .heading {
